@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleImageProcessor", "SimpleImageProcessor.csproj", "{1BAE8C21-7492-4B2F-A948-AFA18E2AFC36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleImageProcessorConsole", "SimpleImageProcessorConsole\SimpleImageProcessorConsole.csproj", "{A5DF35B2-AE83-4964-BB69-B8728844642E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BAE8C21-7492-4B2F-A948-AFA18E2AFC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAE8C21-7492-4B2F-A948-AFA18E2AFC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAE8C21-7492-4B2F-A948-AFA18E2AFC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAE8C21-7492-4B2F-A948-AFA18E2AFC36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5DF35B2-AE83-4964-BB69-B8728844642E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5DF35B2-AE83-4964-BB69-B8728844642E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5DF35B2-AE83-4964-BB69-B8728844642E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5DF35B2-AE83-4964-BB69-B8728844642E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

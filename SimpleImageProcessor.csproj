@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="ImageProcessor" Version="2.6.1.19"/>
+        <PackageReference Include="System.Drawing.Common" Version="4.5.0-rc1"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Remove="SimpleImageProcessorConsole\**"/>
+    </ItemGroup>
+    <ItemGroup>
+        <EmbeddedResource Remove="SimpleImageProcessorConsole\**"/>
+    </ItemGroup>
+    <ItemGroup>
+        <None Remove="SimpleImageProcessorConsole\**"/>
+    </ItemGroup>
+</Project>
